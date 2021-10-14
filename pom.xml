@@ -87,7 +87,6 @@
                         <versionTagPrefix>v</versionTagPrefix>
                         <origin>origin</origin>
                     </gitFlowConfig>
-                    <commitMessages>
                 </configuration>
             </plugin>
         </plugins>
