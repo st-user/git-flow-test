@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>git-flow-test</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <name>git-flow-test</name>
     <!-- FIXME change it to the project's website -->
@@ -78,12 +78,16 @@
                 <artifactId>gitflow-maven-plugin</artifactId>
                 <version>1.16.0</version>
                 <configuration>
+                    <verbose>true</verbose>
+                    <installProject>false</installProject>
+                    <commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
+                    <versionDigitToIncrement>1</versionDigitToIncrement>
                     <gitFlowConfig>
                         <productionBranch>main</productionBranch>
                         <developmentBranch>develop</developmentBranch>
-                        <featureBranchPrefix>feature/</featureBranchPrefix>
-                        <releaseBranchPrefix>release/</releaseBranchPrefix>
-                        <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+                        <featureBranchPrefix>feature-</featureBranchPrefix>
+                        <releaseBranchPrefix>release-</releaseBranchPrefix>
+                        <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                         <versionTagPrefix>v</versionTagPrefix>
                         <origin>origin</origin>
                     </gitFlowConfig>
