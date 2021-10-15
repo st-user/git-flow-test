@@ -81,7 +81,6 @@
                     <verbose>true</verbose>
                     <installProject>false</installProject>
                     <commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
-                    <versionDigitToIncrement>1</versionDigitToIncrement>
                     <gitFlowConfig>
                         <productionBranch>main</productionBranch>
                         <developmentBranch>develop</developmentBranch>
