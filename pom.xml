@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>git-flow-test</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 
     <name>git-flow-test</name>
     <!-- FIXME change it to the project's website -->
@@ -81,7 +81,6 @@
                     <verbose>true</verbose>
                     <installProject>false</installProject>
                     <commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
-                    <versionDigitToIncrement>1</versionDigitToIncrement>
                     <gitFlowConfig>
                         <productionBranch>main</productionBranch>
                         <developmentBranch>develop</developmentBranch>
