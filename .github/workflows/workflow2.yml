@@ -1,7 +1,7 @@
 name: issue-greeter
 on:
   issues:
-    types: [opend]
+    types: [opened]
 jobs:
   my-job:
     runs-on: ubuntu-latest
