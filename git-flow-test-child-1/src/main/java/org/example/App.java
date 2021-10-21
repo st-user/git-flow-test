@@ -13,5 +13,7 @@ public class App {
         System.out.println("New Env.");
         System.out.println("New Env2.");
         System.out.println("After maven wrapper.");
+
+        System.out.println("Feature on multi-module project.");
     }
 }
