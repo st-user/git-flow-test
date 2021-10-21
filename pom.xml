@@ -6,10 +6,15 @@
 
     <groupId>org.example</groupId>
     <artifactId>git-flow-test</artifactId>
-    <version>1.4.1</version>
+    <version>1.5.0</version>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>git-flow-test-child-1</module>
+    </modules>
 
     <name>git-flow-test</name>
-    <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
     <properties>
@@ -18,14 +23,17 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.11</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->

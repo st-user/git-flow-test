@@ -1,3 +1,5 @@
 .idea
 git-flow-test.iml
 target/
+*.iml
+.mvn/wrapper/maven-wrapper.jar
