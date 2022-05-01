@@ -16,6 +16,6 @@ public class App {
 
         System.out.println("Feature on multi-module project.");
 
-        System.out.println("This is v2 !!!");
+        System.out.println("This is v2 !!! changed in release process");
     }
 }
