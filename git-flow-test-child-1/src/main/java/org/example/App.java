@@ -15,5 +15,7 @@ public class App {
         System.out.println("After maven wrapper.");
 
         System.out.println("Feature on multi-module project.");
+
+        System.out.println("This is v2 !!! changed in release process");
     }
 }
